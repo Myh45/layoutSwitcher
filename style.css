@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #C3E0DD;
+    font-family: 'Roboto', sans-serif;
+}
+
+.layout {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wraper{
+    
+}
+
+
+
+.textField {
+    width: 300px;
+    height: 200px;
+    border-width: 3px;
+    border-color: black;
+    font-size: 15pt;
+    padding: 20px;
+}
+.switch-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.center-text{
+    display: flex;
+    justify-content: center;
+}
+
+.layouts-text{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.text-field-wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px -15px;
+}
+.text-field-wrapper > div {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.output-text-area{
+    position: relative; 
+}
+
+.output-text-area button { 
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+}
+.copy-btn{
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    width: 75px;
+    height: 25px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    border-color: black;
+    margin: 15px;
+}
+.copy-btn:hover{
+    width: 85px;
+    height: 35px;
+}
+
+
+.switch-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    border-color: black;
+}
+.hover-orange:hover {
+    background-color: #FFEAD0;
+    color: black;
+}
+.hover-green:hover {
+    background-color: #C3E0DD;
+    color: black;
+}
